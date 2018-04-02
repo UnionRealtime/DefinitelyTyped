@@ -994,6 +994,7 @@ declare namespace mapboxgl {
         'fill-extrusion-translate-anchor'?: 'map' | 'viewport';
         'fill-extrusion-pattern'?: string;
         'fill-extrusion-height'?: number | StyleFunction | Expression;
+        'fill-extrusion-height-transition'?: Transition;
         'fill-extrusion-base'?: number | StyleFunction | Expression;
     }
 
